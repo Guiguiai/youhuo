@@ -1,0 +1,89 @@
+﻿/* 头部 */
+#header{
+    min-width: 1150px;
+    height: 66px;
+    margin: 0 0 20px;
+    border-bottom: 2px solid #222;
+}
+.headinner{
+    width:990px;
+    height:66px;
+    margin: 0 auto;
+}
+.headinner>.logo{
+    float: left;
+    height:66px;
+    line-height: 66px;
+}
+.headinner>.logo img{
+    vertical-align: middle;
+
+}
+.headinner>ul{
+    display: block;
+    float: right;
+    height:66px;
+    line-height: 66px;
+}
+.headinner>ul>li{
+    display:inline-block;
+    float: left;
+    line-height: 28px;
+    font-size: 12px;
+    padding: 0 10px;
+    vertical-align: middle;
+    margin-top:20px;
+}
+.headinner>ul>li i{
+    vertical-align: middle;
+}
+.headinner .myyouhuo{
+    width:74px;
+    position: relative;
+    box-sizing: border-box;
+}
+.headinner .myyouhuo .icon-sjt,.icon-xjt{
+    position: absolute;
+    top:1px;
+    right: 0px;
+}
+.headinner .myyouhuo .my{
+    position: absolute;
+    left: 0;
+    width: 74px;
+    background: #eaeceb;
+    z-index: 9;
+    display: none;
+    cursor: pointer;
+}
+.headinner .myyouhuo .my a{
+    display: block;
+    padding: 0 0 0 10px;
+    border-top: 1px solid #ddd;
+    color:#000;
+}
+.headinner .services{
+    width:80px;
+    position: relative;
+    box-sizing: border-box;
+}
+.headinner .services i{
+    position: absolute;
+    top:1px;
+    right: 0px;
+}
+.headinner .services .help{
+    position: absolute;
+    left: 0;
+    width: 80px;
+    background: #eaeceb;
+    z-index: 9;
+    display: none;
+    cursor: pointer;
+}
+.headinner .services .help a{
+    display: block;
+    padding: 0 0 0 10px;
+    border-top: 1px solid #ddd;
+    color:#000;
+}

@@ -1,0 +1,307 @@
+.passport-page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1150px;
+}
+
+.passport-cover {
+    float: left;
+    margin: 107px 0;
+    width: 575px;
+}
+
+.passport-cover .cover-content {
+    padding: 50px 0;
+    width: 100%;
+    height: 318px;
+    border-right: 1px solid #dfdfdf;
+}
+
+.passport-cover .cover-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 252px;
+    height: 190px;
+}
+
+.content {
+    float: left;
+    margin-top: 107px;
+    padding-left: 85px;
+}
+
+.register-page {
+    color: #b9b9b9;
+    font-size: 14px;
+    position: relative;
+}
+
+.register-page li {
+    position: relative;
+    margin-bottom: 25px;
+    width: 270px;
+}
+
+.register-page li select {
+    width: 132px;
+    height: 30px;
+    color: rgb(154, 154, 154);
+    font-size: 16px;
+    padding: 4px 0;
+    border-color: rgb(193, 193, 193);
+}
+
+.register-page li .country-code {
+    display: block;
+    width: 59px;
+    height: 43px;
+    border: 1px solid #dbdbdb;
+    border-right: 0;
+    text-align: center;
+    font-size: 16px;
+    line-height: 43px;
+}
+
+.register-page li .input {
+    padding: 0;
+    width: 268px;
+    height: 45px;
+    border: 1px solid #dbdbdb;
+    color: #9a9a9a;
+    font-size: 16px;
+    line-height: 45px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.register-page li .input.phone-num {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 210px;
+}
+
+.register-page li .input.msg-captcha {
+    width: 160px;
+}
+
+.register-page li .btn {
+    height: 45px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+
+}
+
+.register-page li .send-captcha {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    background-color: #ff1901;
+    font-size: 12px;
+    border: 0;
+}
+
+.register-page li.items-container {
+    text-align: left;
+    font-size: 13px;
+}
+
+.register-page li.items-container .link {
+    margin: 8px 10px 0 0;
+    display: inline-block;
+}
+
+.register-page li .link {
+    color: #ff1901;
+    text-decoration: underline;
+}
+
+.register-page .reg-btn-area {
+    width: 340px;
+}
+
+.register-page li .register-btn.disable {
+    background-color: #555;
+}
+
+.register-page li .register-btn {
+    width: 270px;
+    font-size: 20px;
+    float: left;
+    font-weight: 900;
+    background-color: #ff1901;
+    border: 0;
+}
+
+.register-page .qrcode-hover-reg {
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    width: 55px;
+}
+
+.register-page .qrcode-hover-reg .qrcode-reg {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #b0b0b0;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+}
+
+.register-page .qrcode-hover-reg .qrcode-icon {
+    width: 28px;
+    height: 28px;
+    background-image: url(../images/tu.png);
+    background-position: -452px -108px;
+    display: inline-block;
+    margin-top: 7px;
+}
+
+.register-page .qrcode-hover-reg .download-app-box {
+    position: absolute;
+    bottom: 0;
+    left: 55px;
+    width: 231px;
+    height: 290px;
+    background-color: #f8f8f8;
+    z-index: 1000;
+    border: 1px solid #b0b0b0;
+    display: none;
+}
+
+.register-page .qrcode-hover-reg:hover .download-app-box {
+    display: block;
+}
+
+.register-page .qrcode-hover-reg .download-app-box .qr-img {
+    position: relative;
+    background-image: url(../images/qrr.png);
+    background-repeat: no-repeat;
+    margin: 32px auto 15px;
+    width: 143px;
+    height: 147px;
+}
+
+.register-page .qrcode-hover-reg .download-app-box .qr-words {
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+}
+
+.register-page .qrcode-hover-reg .download-app-box .qr-more {
+    margin-top: 6px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.register-page li.quick-login-container {
+    width: 270px;
+    text-align: right;
+    font-size: 13px;
+
+}
+
+.register-page .qrcode-hover-reg .download-app-box .box-before {
+    position: absolute;
+    left: -8px;
+    bottom: 14px;
+    display: inline-block;
+    width: 8px;
+    height: 16px;
+    background-image: url(../images/tu.png);
+    background-position: -323px -156px;
+}
+
+.register-page .err-tip {
+    position: absolute;
+    z-index: 1000;
+    padding: 0 10px;
+    height: 30px;
+    border: 1px solid #ffbdbe;
+    background-color: #ffebeb;
+    color: red;
+    line-height: 30px;
+    font-size: 14px;
+    display: none;
+}
+
+.register-page .err-tip i {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    display: block;
+    width: 17px;
+    height: 9px;
+    background-image: url(../images/tu.png);
+    background-position: -488px -108px;
+}
+
+.passport-page .pwd-tips{
+    position: absolute;
+    top: -10px;
+    left: 285px;
+    padding-top: 7px;
+    width: 160px!important;
+    height: 72px;
+    background-image: url(../images/tu.png);
+    background-position: -148px -158px;
+    font-size: 12px;
+}
+.pwd-tips{
+    position: absolute;
+    top: -10px;
+    left: 285px;
+    padding-top: 7px;
+    width: 160px!important;
+    height: 72px;
+    background-image: url(../images/tu.png);
+    background-position: -148px -158px;
+    font-size: 12px;
+    z-index: 100;
+    background-color: #fff;
+}
+
+.passport-page .pwd-tips>div{
+    position: relative;
+    margin-left: 15px;
+    padding-left: 15px;
+    height: 22px;
+    font-size: 12px;
+    color: #b9b9b9;
+    line-height: 22px;
+}
+
+.passport-page .pwd-tips>div i{
+    position: absolute;
+    top: 50%;
+    left: -2px;
+    margin: -7px 0 0;
+    width: 14px;
+    height: 14px;
+    background-image: url(../images/tu.png);
+    background-position: -558px -35px;
+}
+.hide{
+    display: none;
+}
+.passport-page .pwd-tips>div.no{
+    color: red;
+}
+.passport-page .pwd-tips>div.no i,.passport-page .pwd-tips>div.yes i{
+    background-image: url(../images/tu.png);
+}
+.passport-page .pwd-tips>div.no i{
+    background-position: -514px -35px;
+}
+.passport-page .pwd-tips>div.yes i{
+    background-position: -536px -35px;
+}

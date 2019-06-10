@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <script src="./js/jquery.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="headinner _container">
+            <h2 class="logo">
+                <a href="./index.html">
+                    <img src="./images/logo.png" alt="" srcset="">
+                </a>
+            </h2>
+            <ul>
+                <li>
+                    <span>Hi~</span>
+                    <a href="">45454656</a>&nbsp;
+                    <a href="./index.html">[退出]</a>
+                </li>
+                <li class="myyouhuo">
+                    <span>
+                        <a href="">MY有货</a>
+                        <i class="iconfont icon-xjt"></i>
+                        <i class="iconfont icon-sjt" style="display:none;"></i>
+                        <div class="my">
+                            <a href="//www.yohobuy.com/home/favorite?t=1557934827002">我的收藏</a>
+                            <a href="//www.yohobuy.com/home/coupons?t=1557934827002">优惠券</a>
+                        </div>
+                    </span>
+                </li>
+                <li>
+                    <a href="//www.yohobuy.com/home/orders?t=1557929339539">订单中心</a>
+                </li>
+                <li class="services">
+                    <span>
+                        <a href="//www.yohobuy.com/home?t=1557929339539">客户服务</a>
+                    </span>
+                    <i class="iconfont icon-xjt"></i>
+                    <i class="iconfont icon-sjt" style="display:none;"></i>
+                    <div class="help">
+                        <a href="//www.yohobuy.com/service/client">在线客服</a>
+                        <a href="//www.yohobuy.com/help">帮助中心</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="car _container">
+        <div class="carTitle">
+            <div class="carLogo">
+                <img src="./images/logo1_03.jpg">
+            </div>
+            <ul>
+                <li style="text-align: left;">查看购物车
+                    <span style="left:0px;top:-7px;"></span>
+                </li>
+                <li style="text-align: center;">填写订单
+                    <span style="left:66px;top:-7px;"></span>
+                </li>
+                <li style="text-align: right;">付款，完成购买
+                    <span style="left:138px;top:-7px;"></span>
+                </li>
+            </ul>
+        </div>
+        <div class="tips">
+            <a class="iconfont icon-gb"></a>
+            <strong>温馨提示：</strong>
+            1. 选购单中的商品不保留库存，请及时结算。 2. 商品的价格、相关活动信息及库存以订单提交时为准。
+
+        </div>
+        <div class="carHead">
+            <p style="width:6%;">
+                <!-- <label for="ck" class="iconfont icon-qx"></label> -->
+                <input class="check" type="checkbox"></input>全选
+            </p>
+            <p style="width:35%;">商品信息</p>
+            <p style="width:14%;">单价</p>
+            <p style="width:15%;">数量</p>
+            <p style="width:16%;">小计</p>
+            <p style="width:11.8%;">操作</p>
+        </div>
+        <div class="main">
+            <!-- <div class="box">
+                <div class="dital">
+                    <input class="checkbox" type="checkbox" id='ck1'>
+                    <img src="./images/img1.jpg">
+                    <p class="title">
+                        <a>艾格吃饱了 山楂果肉条 175g</a>
+                    </p>
+                    <p class="content">颜色：规格：
+                        <span class="iconfont icon-bi"></span>
+                    </p>
+                </div>
+                <div class="price">
+                    <p>￥17.00</p>
+                </div>
+                <div class="number">
+                    <button class="btn1">-</button>
+                    <input class="num" type="text" value="1">
+                    <button class="btn2">+</button>
+                </div>
+                <div class="money">￥17.00</div>
+                <div class="delete">
+                    <span>删除</span>
+                    <span>移入收藏</span>
+                </div>
+            </div> -->
+        </div>
+        <div class="foot">
+            <div class="carFoot _container">
+
+                <p style="width:6%;">
+                    <!-- <label for="ck" class="iconfont icon-qx"></label> -->
+                    <input class="check checkbox" type="checkbox"></input>全选
+                </p>
+                <p class="remove" style="width:35%;color: #017cf8;">
+                    <span class="deleteChecked">删除选中商品</span>
+                    <span>移入收藏夹</span>
+                    <span>清空失效商品</span>
+                </p>
+                <p style="width:14%;">已选商品
+                    <span class="totalNum" style="color:#d0021b">0</span>件</p>
+                <p class="total">
+                    <span>应付金额（不含邮费）:
+                        <i style="color:#d0021b;font-size:20px;font-weight:700;" class="totalPrice">￥0.00</i>
+                    </span>
+                    <span style="color: #afafaf;">活动优惠：¥ 0.00</span>
+                </p>
+                <p class="pay">去结算</p>
+            </div>
+        </div>
+    </div>
+    <div class="push _container">
+        <div class="bottom-tb">
+            <span class="sp1">为您优选</span>
+            <span class="sp2">最近浏览</span>
+        </div>
+        <ul>
+            <li>
+                <a>
+                    <img src="./images/girl.jpg" alt="" srcset="">
+                </a>
+            </li>
+            <li>
+                <a>
+                    <img src="./images/yifu.jpg" alt="" srcset="">
+                </a>
+            </li>
+            <li>
+                <a>
+                    <img src="./images/xie.jpg" alt="" srcset="">
+                </a>
+            </li>
+            <li>
+                <a>
+                    <img src="./images/yifu1.jpg" alt="" srcset="">
+                </a>
+            </li>
+            <li>
+                <a>
+                    <img src="./images/shoots.jpg" alt="" srcset="">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- 底部 -->
+    <div id="footer">
+        <div class="promise">
+            <div class="promise_inner container clearfix:after">
+                <div class="left">
+                    <span class="iconfont icon-zheng"></span>
+                    <span class="red">100%</span>
+                    <span>品牌正品</span>
+                </div>
+                <div class="left">
+                    <span class="iconfont icon-wuliyou"></span>
+                    <span class="red">7</span>
+                    <span>无理由退换货</span>
+                </div>
+                <div class="left">
+                    <span class="iconfont icon-weixin"></span>
+                    <a href="" style="color: #ffffff;">
+                        <span class="red">便捷</span>
+                        <span>在线客服 </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer_help">
+            <div class="help_inner container">
+                <div class="clearfix">
+                    <ul class="clearfix">
+                        <li class="left">
+                            <p><span>新手专区</span></p>
+                            <p><a href="">注册登录</a></p>
+                            <p><a href="">购物结算</a></p>
+                            <p><a href="">下单支付</a></p>
+                            <p><a href="">收货评价</a></p>
+                        </li>
+                        <li class="left">
+                            <p><span>会员中心</span></p>
+                            <p><a href="">会员制度</a></p>
+                            <p><a href="">会员优惠</a></p>
+                            <p><a href="">账户管理</a></p>
+                            <p><a href="">密码管理</a></p>
+                        </li>
+                        <li class="left">
+                            <p><span>购物指南</span></p>
+                            <p><a href="">发票</a></p>
+                            <p><a href="">尺码对照</a></p>
+                            <p><a href="">尺码解读</a></p>
+                            <p><a href="">商品查询</a></p>
+                        </li>
+                        <li class="left">
+                            <p><span>支付方式</span></p>
+                            <p><a href="">在线支付</a></p>
+                            <p><a href="">货到付款</a></p>
+                            <p><a href="">分期支付</a></p>
+                            <p><a href="">优惠卷、有货币</a></p>
+                        </li>
+                        <li class="left">
+                            <p><span>配送方式</span></p>
+                            <p><a href="">配送说明</a></p>
+                            <p><a href="">运费说明</a></p>
+                            <p><a href="">验货查收</a></p>
+                            <p><a href="">收货样品</a></p>
+                        </li>
+                        <li class="left">
+                            <p><span>售后服务</span></p>
+                            <p><a href="">退换货政策</a></p>
+                            <p><a href="">退换货流程</a></p>
+                            <p><a href="">投诉与建议</a></p>
+                            <p><a href="">在线客服</a></p>
+                        </li>
+                        <li class="left">
+                            <p><span>APP常见问题</span></p>
+                            <p><a href="">IPhone版</a></p>
+                            <p><a href="">Android版</a></p>
+                            <p><a href="">wap版</a></p>
+                            <p><a href="">IPAD版</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer_link">
+            <div class="link_inner container">
+                <div class="link_up">
+                    <div class="link_u_l">
+                        <a href="" class="govicon">
+                            <div class="img_box"></div>
+                        </a>
+                        <a href=""><img src="./images/link2.png" alt=""></a>
+                        <a href=""><img src="./images/link3.png" alt=""></a>
+                    </div>
+                    <p>
+                        <a href="./index.html">返回首页</a>
+                        <span>|</span>
+                        <a href="">YOHO!BUY 有货</a>
+                        <span>|</span>
+                        <a href="">新力传媒</a>
+                        <span>|</span>
+                        <a href="">联系我们</a>
+                        <span>|</span>
+                        <a href="">友情链接</a>
+                        <span>|</span>
+                        <a href="">隐私条款</a>
+                        <span>|</span>
+                        <a href="">友情链接</a>
+                        <span>|</span>
+                        <a href="">潮流品牌大全</a>
+                        <span>|</span>
+                        <a href="">潮流品类大全</a>
+                        <span>|</span><br>
+                        <a href="">潮流产品大全</a>
+                        <span>|</span>
+                        <a href="">潮流资讯</a>
+                        <span>|</span>
+                        <a href="">穿衣搭配(男生版)</a>
+                        <span>|</span>
+                        <a href="">穿衣搭配(女生版)</a>
+                        <span>|</span>
+                        <a href="">潮流人气</a>
+                        <span>|</span>
+                        <a href="">潮流潮品</a>
+                        <span>|</span>
+                        <a href="">潮流视频</a>
+                        <span>|</span><br>
+                        <a href="" target="_blank" class="police">苏公网安备 32010502010132号</a>
+                        <span>|</span>
+                        <a href="" target="_blank">出版物经营许可证</a>
+                        <span>|</span>
+                        <a href="" target="_blank">苏B2-20120395</a>
+                        <span>|</span>
+                        <a href="" target="_blank">食品经营许可证</a>
+                    </p>
+                </div>
+                <div class="link_down">
+                    <p>CopyRight © 2007-2019 南京新与力文化传播有限公司 苏ICP备09011225号 NewPower Co. 版权所有
+                        江苏省南京市建邺区嘉陵江东街18号南京国家广告产业园5栋17，18楼 025-87781000</p>
+                </div>
+            </div>
+        </div>
+        <!-- 友情链接 -->
+    </div>
+    <!-- 回到顶部 -->
+    <div class="right_float hide">
+        <div class="f_qr">
+            <a href="javascript:;" target="_blank" class="layer_box">
+                <span class="qrcode_img">&nbsp;</span>
+            </a>
+            <div class="download_app_box">
+                <div class="download_app_left">
+                    <div class="we_chat_code">
+                        <img src="./images/wechat_qr.png" alt="">
+                    </div>
+                    <h5 class="qr_words">微信扫一扫</h5>
+                    <h5 class="qr_words">关注公众号，送球鞋</h5>
+                </div>
+                <div class="download_app_right">
+                    <div class="mobile_code">
+                        <img src="./images/download_qr.png" alt="">
+                    </div>
+                    <h5 class="qr_words">下载手机客户端</h5>
+                    <h5 class="qr_words qr_more">
+                        <a href="javascript:;" target="_blank">更多客户端下载</a>
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div class="return_top">
+            <i class="iconfont icon-arrow-up"></i>
+        </div>
+    </div>
+</body>
+
+<script src="./js/home.js"></script>
+<script src="./js/car.js"></script>
+<script src="./js/index.js"></script>
+<script>
+
+    var car = new Car();
+    var cartlist = car.getCar();
+    var length = cartlist.length;
+    var str = ``;
+    for (var i = 0; i < length; i++) {
+        str += `<div class="box">
+                <div class="dital">
+                    <input class="checkbox" type="checkbox" id='${cartlist[i].id}'>
+                    <img src=${cartlist[i].img}>
+                    <p class="title">
+                        <a>${cartlist[i].title}</a>
+                    </p>
+                    <p class="content">${cartlist[i].content}
+                        <span class="iconfont icon-bi"></span>
+                    </p>
+                </div>
+                <div class="price">
+                    <p>${cartlist[i].price}</p>
+                    <input type="hidden" value="${cartlist[i].id}">
+                </div>
+                <div class="number">
+                    <button class="btn1" onclick="reduce(this)">-</button>
+                    <input class="num" type="text" value="${cartlist[i].number}">
+                    <button class="btn2" onclick="plus(this)">+</button>
+                </div>
+                <div class="money"></div>
+                <div class="delete">
+                    <span onclick="delCar(${cartlist[i].id})">删除</span>
+                    <span>移入收藏</span>
+                </div>
+            </div>`;
+    }
+    $(".main")[0].innerHTML = str;
+
+    $(".money").each(function (index, element) {
+        //console.log(index);
+        //console.log( $(".money").eq(index));
+        //console.log(cartlist[index].price);
+        //console.log(cartlist[index].number);
+        $(".money").eq(index).html(cartlist[index].price * cartlist[index].number);
+    })
+    $(".num").each(function (index, element) {
+        //console.log(index);
+        //console.log($(".num").eq(index));
+        $(".num").eq(index).val(cartlist[index].number);
+    })
+
+    //商品删除按钮事件
+    function delCar(id) {
+        if (!confirm('确认删除？')) {
+            return;
+        }
+        car.delGoods(id);
+        location.reload();
+    }
+
+    //商品件数加减
+    function plus(ele) {
+        var num = $(ele).prev().val();
+
+        var id = $(ele).parent().prev().children("input").val();
+        var price = $(ele).parent().prev().children("p").html();
+        var total = $(ele).parent().next().html();
+
+        var cartlist = car.getCar();
+        var length = cartlist.length;
+        for (var i = 0; i < length; i++) {
+            if (cartlist[i].id == id) {
+                num++;
+                cartlist[i].number = num;
+
+                break;
+            }
+        }
+        $(ele).prev().val(num);
+        var total = num * price;
+        $(ele).parent().next().html(total);
+        localStorage.setItem('cartlist', JSON.stringify(cartlist));
+
+    }
+    //减少件数，当减到0时直接删除当前元素
+    function reduce(ele) {
+        var num = $(ele).next().val();
+        var id = $(ele).parent().prev().children("input").val();
+        var price = $(ele).parent().prev().children("p").html();
+
+        var cartlist = car.getCar();
+        var length = cartlist.length;
+        for (var i = 0; i < length; i++) {
+            if (cartlist[i].id == id) {
+                num--;
+                if (num <= 0) {
+                    car.delGoods(id);
+                    return;
+                } else {
+                    cartlist[i].number = num;
+
+                    cartlist[i].money = num * cartlist[i].price;
+                    var total = num * price;
+                    $(ele).parent().next().html(total);
+                    //console.log(total);
+                    localStorage.setItem('cartlist', JSON.stringify(cartlist));
+                    $(ele).next().val(num);
+
+                }
+                break;
+            }
+
+        }
+    }
+
+
+</script>
+
+</html>

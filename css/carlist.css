@@ -1,0 +1,477 @@
+.container {
+    min-width: 990px;
+    margin:0 auto;
+}
+/* 头部 */
+#header{
+    min-width: 990px;
+    height: 66px;
+    margin: 0 0 20px;
+    border-bottom: 2px solid #222;
+}
+.headinner{
+    width:990px;
+    height:66px;
+    margin: 0 auto;
+}
+.headinner>.logo{
+    float: left;
+    height:66px;
+    line-height: 66px;
+}
+.headinner>.logo img{
+    vertical-align: middle;
+
+}
+.headinner>ul{
+    display: block;
+    float: right;
+    height:66px;
+    line-height: 66px;
+}
+.headinner>ul>li{
+    display:inline-block;
+    float: left;
+    line-height: 28px;
+    font-size: 12px;
+    padding: 0 10px;
+    vertical-align: middle;
+    margin-top:20px;
+}
+.headinner>ul>li i{
+    vertical-align: middle;
+}
+.headinner .myyouhuo{
+    width:74px;
+    position: relative;
+    box-sizing: border-box;
+}
+.headinner .myyouhuo .icon-sjt,.icon-xjt{
+    position: absolute;
+    top:1px;
+    right: 0px;
+}
+.headinner .myyouhuo .my{
+    position: absolute;
+    left: 0;
+    width: 74px;
+    background: #eaeceb;
+    z-index: 9;
+    display: none;
+    cursor: pointer;
+}
+.headinner .myyouhuo .my a{
+    display: block;
+    padding: 0 0 0 10px;
+    border-top: 1px solid #ddd;
+    color:#000;
+}
+.headinner .services{
+    width:80px;
+    position: relative;
+    box-sizing: border-box;
+}
+.headinner .services i{
+    position: absolute;
+    top:1px;
+    right: 0px;
+}
+.headinner .services .help{
+    position: absolute;
+    left: 0;
+    width: 80px;
+    background: #eaeceb;
+    z-index: 9;
+    display: none;
+    cursor: pointer;
+}
+.headinner .services .help a{
+    display: block;
+    padding: 0 0 0 10px;
+    border-top: 1px solid #ddd;
+    color:#000;
+}
+/* 主内容区 */
+.car{
+    width:990px;
+    margin:0 auto;
+}
+.car .carTitle{
+    position: relative;
+    margin: 40px auto 50px;
+}
+.car .carTitle .carLogo{
+    width:145px;
+    height:38px;
+    /* float: left; */
+}
+.car .carTitle ul{
+    display: block;
+    width: 440px;
+    font-size: 15px;
+    font-weight: 300;
+    display: block;
+    border-top: 2px solid #b0b0b0;
+    position: absolute;
+    right: 2px;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.car .carTitle ul li{
+    display: block;
+    width: 33.33%;
+    color: #999;
+    line-height: 40px;
+    position: relative;
+}
+.car .carTitle ul li span{
+    display: block;
+    width:12px;
+    height:12px;
+    border-radius: 50%;
+    background:#000;
+    position: absolute;
+}
+.car .tips{
+    overflow: hidden;
+    font-weight: 300;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    padding: 4px 0;
+    color: #818181;
+    font-size: 12px;
+    background-color: #f0f0f0;
+    position: relative;
+    display: block;
+}
+.car .tips .icon-gb{
+    float: right;
+    /* display: block; */
+    margin-right: 10px;
+    /* border:none;
+    background:#f0f0f0; */
+}
+.car .tips strong{
+   font-weight: 400;
+   padding-left: 30px;
+}
+.car .carHead {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #444;
+    color: #fff;
+    padding:0 30px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+
+.carHead>p{
+    display: inline-block;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+}
+.carHead>p:nth-child(1){
+    padding-left: 20px;
+    text-align: center;
+    position: relative;
+}
+.carHead>p>label{
+    display: block;
+    height:16px;
+    float: left;
+    position: absolute;
+    top:1px;
+    left:0px;
+}
+#checkAll{
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    left:0;
+    top:18px;
+}
+.carHead>p:last-child{
+    text-align: right;
+}
+.box{
+    width: 100%;
+    height: 150px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin: 10px 0;
+    position: relative;
+    padding: 0 30px 0 54px;
+}
+.dital{
+    display: block;
+    width: 368px;
+    height:90px;
+    float: left;
+    padding: 30px 0;
+    font-size: 15px;
+    font-weight: 300;
+    position: relative;
+}
+.checkbox{
+    display: block;
+    width:16px;
+    height:16px;
+    float: left;
+    position: absolute;
+    left:-24px;
+    top:64px;
+}
+.dital>img {
+    width: 64px;
+    height: 90px;
+    float: left;
+    margin-left: 10px;
+}
+.imag>img{
+    width:100%;
+}
+.title {
+    display: block;
+    width:216px;
+    height:44px;
+    float: left;
+    margin-left: 20px;
+
+}
+.content{
+    display: block;
+    width:216px;
+    height:26px;
+    line-height: 26px;
+    float: left;
+    margin-left: 20px;
+    color:#9a9a9a;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 3px;
+    box-sizing: border-box;
+}
+
+.content>span{
+    float: right;
+    font-size: 18px;
+    display: none;
+}
+.price {
+    width:148px;
+    height:84px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    float: left;
+    padding:30px 0;
+    text-align: center;
+}
+.number{
+    display: block;
+    width:128px;
+    height:93px;
+    float: left;
+    padding: 30px 5px;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 33px;
+    box-sizing: border-box;
+}
+.number>.btn1,.btn2 {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 24px;
+    float: left;
+    color:#ccc;
+}
+.main>div>.number>.num{
+    display: block;
+    width:36px;
+    height:30px;
+    float: left;
+    border:none;
+    border-top:1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+}
+.money{
+    width:160px;
+    height:84px;
+    margin-top:30px ;
+    padding:30px 0;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    color:#d0021b;
+}
+.delete{
+    display: block;
+    width:100px;
+    height:108px;
+    font-size: 12px;
+    float: left;
+    padding: 30px 0;
+    margin-top: 21px;
+    font-weight: 300;
+    text-align: right;
+    box-sizing: border-box;
+}
+.delete>span{
+    display: block;
+    width:100px;
+    height:24px;
+    line-height: 24px;
+    color: #000;
+    cursor: pointer;
+}
+
+.carFoot{
+    width: 990px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #e0e0e0;
+    position: relative;
+    padding-left:30px;
+    box-sizing: border-box;
+    margin:0 auto;
+}
+.carFoot>p{
+    display:inline-block;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+}
+.check{
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    left:3px;
+    top:18px;
+}
+.carFoot>.remove{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.carFoot>p:nth-child(1){
+    padding-left: 20px;
+    text-align: center;
+    position: relative;
+}
+.carFoot>p>label{
+    display: block;
+    height:16px;
+    float: left;
+    position: absolute;
+    top:1px;
+    left:0px;
+}
+.total{
+    width:264px;
+    height:36px;
+    font-size: 14px;
+    padding-top:10px;
+    box-sizing: border-box;
+}
+.total>span{
+    display: block;
+    height:18px;
+    line-height: 18px;
+    text-align: left;
+    padding-right: 20px;
+    box-sizing: border-box;
+    
+}
+.total>span>i{
+    display: inline-block;
+    height:20px;
+    line-height: 20px;
+    float: right;
+    
+}
+.carFoot>p:last-child{
+    display: inline-block;
+    float: right;
+    width:150px;
+    background:#b0b0b0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color:#fff;
+    cursor: pointer;
+}
+.calcu{
+    position: fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background:#e0e0e0;
+    z-index:10;
+}
+.push{
+    width:990px;
+    margin:0 auto;
+    margin-top: 30px;
+}
+.push .bottom-tb{
+    height: 40px;
+    line-height: 39px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.push .bottom-tb span{
+    display: block;
+    float: left;
+    width: 80px;
+    text-align: center;
+    margin: 0 13px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #444;
+    cursor: pointer;
+}
+.push ul{
+    display: block;
+    width: 990px;
+    height: 338px;
+    margin: 20px 0 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.push ul li{
+    display:inline-block;
+    float: left;
+    margin-right: 8px;
+    width: 190px;
+    height: 338px;
+    box-sizing: border-box;
+}
+
+
+
